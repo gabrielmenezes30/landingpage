@@ -10,18 +10,38 @@
     --cor2: #FBBFBF;
 }
 
+.navbar{
+    background-color: var(--cor1) !important;
+}
+
 .header{
     width: 100%;
     height: 8vh;
     background-color: #ACC4BE;
+
 }
 
 header .container-fluid{
     /* background-color: #981010; */
-    background-color: #ACC2BC;
-    width: 100%;    
+    width: 100%;
+    padding: 0;    
+}
+.header-section{
+    /* background-color: #ACC2BC; */
+    background-image: url(../assets/mockups/background-header.jpeg); 
+    width: 100%;
 }
 
+/*
+.header-section::before{
+    content: "";
+    background-color: #ACC2BC99 ;  
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+*/
 .imagem-header{
     position: absolute;
     margin-top: -40px;
@@ -42,6 +62,7 @@ box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
 .main-headline{
     margin-left: 50px;
     color: white;
+    z-index: 9999;
 }
 .main-headline h1{
     font-family: var(--font);
@@ -61,6 +82,9 @@ box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
 .button-margin{
     margin-left: 50px;
 } 
+.button-header{
+    z-index: 9999;
+}
 .button-header button{
     margin-top: 100px;
     width: 450px;
@@ -72,6 +96,7 @@ box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
     border: none;
     border-radius: 3px;
     box-shadow: 0px 0px 8px 2px #81F7F3;
+    z-index: 9999;
 }
 .button-header button:hover{
     margin-top: 100px;
