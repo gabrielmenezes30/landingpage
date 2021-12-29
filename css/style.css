@@ -15,7 +15,7 @@
 }
 .navbar-nav li:hover{
     border-bottom: 2px solid #fa4b68;
-    transition: 100ms ease all;
+    transition: 90ms ease all;
 }
 /* .header{
     width: 100%;
@@ -46,7 +46,7 @@
 }
 .header-section{
     /* background-color: #ACC2BC; */
-    background-image: url(../assets/mockups/background-header.jpeg); 
+    background-image: url(../assets/mockups/background-edit.jpeg); 
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -168,32 +168,75 @@
     text-shadow: -4px 3px 4px rgba(206,89,55,0.76);
 }
 .text-content1 strong{
-    color: #E30606;   
+    color: #f76d85;   
 }
 .text-content1{
     margin-left: 80px;
-    width: 800px;
     text-align: justify;
     font-family: var(--font);
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 22px;
+    width: 700px;
+    font-weight: 400;
+}
+.text-content1 h1{
+    color: var(--cor1);
+    font-weight: 200;
+}
+.box-text-content1{
+    margin-left: -20px;
 }
 .content2{
     margin-top: 160px;
     margin-right: 80px;
 }
 .content2 strong{
-    color: #E30606;
+    color: #f76d85;
 }
 .text-content2{
     margin-right: 90px;
-    width: 700px;
+    width: 600px;
     text-align: justify;
     font-family: var(--font);
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
 }
-
+.butterfly-background{
+    background-image: url(../assets/mockups/fundoborboleta.png);
+    background-size: cover;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    z-index: -10;
+    margin-top: -50px;
+}
+.content-bullet-points h2{ 
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: var(--font);
+    color: var(--cor1);
+}
+.content-bullet-points ul li{
+    list-style: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-family: var(--font);
+}
+.background-butterfly-bottom{
+    background-image: url(../assets/mockups/fundoborboleta.png);
+    background-size: cover;
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    z-index: -10;
+    margin-top: 160px;
+    margin-left: 350px;
+}
+.content-bullet-points ion-icon{
+    font-size: 24px;
+    color: #f76d85;
+}
 .icon{
     margin-right: 10px;
 }
@@ -260,7 +303,7 @@
     font-weight: 700;
     border: none;
     border-radius: 3px;
-    box-shadow: 0px 0px 8px 2px #81F7F3;
+
 }
 .button:hover{
     margin-top: 100px;
@@ -272,7 +315,6 @@
     font-weight: 700;
     border: none;
     border-radius: 3px;
-    box-shadow: 0px 0px 8px 2px #81F7F3;
     transition: ease-in-out 100ms;
 }
 .text-cards{
@@ -353,7 +395,6 @@ padding-bottom: 30px;
     font-weight: 700;
     border: none;
     border-radius: 3px;
-    box-shadow: 0px 0px 8px 2px #81F7F3;
 }
 .button-form:hover{
   
@@ -365,7 +406,6 @@ padding-bottom: 30px;
     font-weight: 700;
     border: none;
     border-radius: 3px;
-    box-shadow: 0px 0px 8px 2px #81F7F3;
     transition: ease-in-out 100ms;
 }
 
@@ -463,18 +503,14 @@ footer a:hover{
         width: 600px;
     }
 
-    .button-header button{
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .button-header button:hover{
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
+    
 
     .text-content1{
-        font-size: 30px;
-        width: 600px;
+        font-size: 17px;
+        width: 400px;
+    }
+    .text-content1 h1{
+        font-weight: 500;
     }
     .text-content2{
         font-size: 30px;
