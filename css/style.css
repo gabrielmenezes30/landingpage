@@ -47,6 +47,7 @@
 .header-section{
     /* background-color: #ACC2BC; */
     background-image: url(../assets/mockups/background-header.jpeg); 
+    
     width: 100%;
     height: 600px;
 }
@@ -60,8 +61,22 @@
     width: 100%;
     height: 600px;
     position: absolute;
+}
+.bullet-points{
+    z-index: 9999;
+}
+.bullet-points li{
+    font-weight: 700;
+    list-style: none;
+    font-family: var(--font);
+    color: #120A2A;
+    font-size: 18px;
+}
+.bullet-points li ion-icon{
+    color: #f76d85;
     
 }
+
 
 .imagem-header{
     position: absolute;
@@ -75,7 +90,7 @@
     box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
 }
 
-.teste{
+.container-ebook{
     z-index: 9999;
 }
 
@@ -112,7 +127,7 @@
     margin-top: 50px;
     width: 450px;
     height: 50px;
-    background-color: #5BCE00;
+    background-color: #f76d85;
     font-size: 30px;
     color: #fff;
     font-weight: 700;
@@ -122,10 +137,10 @@
     z-index: 9999;
 }
 .button-header button:hover{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 450px;
     height: 50px;
-    background-color: #50b100;
+    background-color: #fa4b68;
     font-size: 30px;
     color: #fff;
     font-weight: 700;
@@ -237,11 +252,11 @@
     border-radius: 3px;
     background-color: #fff;
 }
-.second-button{
+.button{
     margin-top: 100px;
     width: 550px;
     height: 70px;
-    background-color: #5BCE00;
+    background-color: #f76d85;
     font-size: 40px;
     color: #fff;
     font-weight: 700;
@@ -249,11 +264,11 @@
     border-radius: 3px;
     box-shadow: 0px 0px 8px 2px #81F7F3;
 }
-.second-button:hover{
+.button:hover{
     margin-top: 100px;
     width: 550px;
     height: 70px;
-    background-color: #50b100;
+    background-color: #fa4b68;
     font-size: 40px;
     color: #fff;
     font-weight: 700;
@@ -334,7 +349,7 @@ padding-bottom: 30px;
  
     width: 600px;
     height: 50px;
-    background-color: #5BCE00;
+    background-color: #f76d85;
     font-size: 30px;
     color: #fff;
     font-weight: 700;
@@ -346,7 +361,7 @@ padding-bottom: 30px;
   
     width: 600px;
     height: 50px;
-    background-color: #50b100;
+    background-color: #fa4b68;
     font-size: 30px;
     color: #fff;
     font-weight: 700;
