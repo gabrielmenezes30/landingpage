@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="assets/profiles/profile-image.png" type="image/x-icon">
-    
+
 
     <!-- Responsividade CSS -->
-   
+
 
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -20,25 +20,57 @@
 
 <body>
     <header>
-        
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                
-                <a class="navbar-brand">
-                    <img src="assets/mockups/Logotipo Leyliane (APROVADA).png" width="150" >
-                </a>    
-                
-                <div class="d-flex">
+                <a class="navbar-brand ps-5" href="#">
+                    <img src="assets/mockups/Logotipo Leyliane (APROVADA).png" alt="" width="150">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="justify-content-end collapse navbar-collapse pe-2" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="">QUEM SOU EU?</a>
+                        <li class="nav-item pe-2">
+                            <a class="nav-link link-navbar d-flex align-items-center" aria-current="page"
+                                href="#first-content">
+                                <ion-icon name="woman-sharp" class="pe-1"></ion-icon>
+                                QUEM SOU EU?
+                            </a>
                         </li>
+                        <li class="nav-item pe-2">
+                            <a class="nav-link link-navbar" aria-current="page" href="#fourth-content">FAQ</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
-    
-    
+        <!-- <nav class="navbar">
+            <div class="container-fluid d-flex justify-content-between">
+                    <div>
+                        <a class="navbar-brand p-5">
+                            <img src="assets/mockups/Logotipo Leyliane (APROVADA).png" width="150" >
+                        </a>    
+                    </div>
+                
+                <div class="d-flex">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="">QUEM SOU EU?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="">QUEM SOU EU?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="">QUEM SOU EU?</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+
+
         <div class="container-fluid header-section">
             <div class="d-flex justify-content-center">
                 <div class="imagem-header ">
@@ -50,7 +82,8 @@
                 <div class="d-flex flex-column mt-5">
                     <div class="main-headline">
                         <h1>
-                            <strong class="strong-headline">5 PASSOS</strong>  PARA UMA AMAMENTAÇÃO DE <strong class="strong-headline">SUCESSO</strong> 
+                            <strong class="strong-headline">5 PASSOS</strong> PARA UMA <br> AMAMENTAÇÃO DE <br> <strong
+                                class="strong-headline">SUCESSO</strong>
                         </h1>
                         <h2>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
                             industries for previewing layouts and visual mockups</h2>
@@ -64,7 +97,7 @@
                         </a>
                     </div>
                 </div>
-                <div>
+                <div class="teste">
                     <img class="mockup-ebook" src="assets/mockups/book-white.png" alt="imagem ebook" width="700">
                 </div>
             </div>
@@ -78,7 +111,7 @@
                         <img src="assets/icon/butterfly.png" alt="" width="49">
                     </div>
                     <div class="d-flex align-items-center">
-                        <p class=" text-center"> 
+                        <p class=" text-center">
                             Quem sou eu?</p>
                     </div>
                 </div>
@@ -89,7 +122,11 @@
                             <img class="image-content-default" src="assets/mockups/Image (1).jpeg" alt="" width="350">
                         </div>
                         <div class="text-content1 d-flex align-items-center">
-                            <p> Olá, meu nome é <strong >Leyliane Andrade</strong>, sou enfermeira obstetra, educadora perinatal e consultora em Amamentação há 5 anos e atuo <strong >apoiando, incentivando e ajudando mulheres em todo Brasil</strong> a conquistarem o sucesso na amamentação que é sem sombra de dúvidas, a <strong>melhor decisão</strong> e cuidado que você pode ofertar para ele por toda vida.</p>
+                            <p> Olá, meu nome é <strong>Leyliane Andrade</strong>, sou enfermeira obstetra, educadora
+                                perinatal e consultora em Amamentação há 5 anos e atuo <strong>apoiando, incentivando e
+                                    ajudando mulheres em todo Brasil</strong> a conquistarem o sucesso na amamentação
+                                que é sem sombra de dúvidas, a <strong>melhor decisão</strong> e cuidado que você pode
+                                ofertar para ele por toda vida.</p>
                         </div>
                     </div>
                 </div>
@@ -101,11 +138,14 @@
                             <img class="image-content" src="assets/mockups/Image.jpeg" alt="" width="450">
                         </div>
                         <div class="text-content2 d-flex align-items-center">
-                            <p> Esse E-book foi desenvolvido com todo carinho para você e tem como objetivo lhe   <strong>ensinar de forma clara e prática</strong> tudo que você precisa saber para realizar esse sonho, que é <strong>AMAMENTAR!</strong>  Vem comigo nessa e seja muito bem vinda ao meu <strong>time de mães empoderadas e de bebês saudáveis!</strong>  </p>
+                            <p> Esse E-book foi desenvolvido com todo carinho para você e tem como objetivo lhe
+                                <strong>ensinar de forma clara e prática</strong> tudo que você precisa saber para
+                                realizar esse sonho, que é <strong>AMAMENTAR!</strong> Vem comigo nessa e seja muito bem
+                                vinda ao meu <strong>time de mães empoderadas e de bebês saudáveis!</strong> </p>
                         </div>
                     </div>
                 </div>
-              
+
             </div>
         </div>
     </section>
@@ -132,9 +172,9 @@
 
     <section id="third-content">
         <div class="third-content">
-            <div>
-                <div class="">
-                    <img src="assets/icon/butterfly-icon.png" alt="" width="40">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex align-items-center icon">
+                    <img src="assets/icon/butterfly-icon.png" alt="" width="49">
                 </div>
                 <div>
                     <p class="text-center text-white third-content-title">DEPOIMENTOS</p>
@@ -186,7 +226,7 @@
             </div>
         </div>
     </section>
-    
+
     <section id="fourth-content">
 
         <div>
@@ -283,7 +323,7 @@
                     </div>
                 </div>
 
-                
+
 
 
 
@@ -299,12 +339,13 @@
     <section id="fifth-content">
         <div class="pt-5 content-fifth d-flex flex-row justify-content-evenly">
             <div class="fifth-content-title d-flex flex-column align-items-center justify-content-center">
-                <p class="title-fifth fs-1 text-center text-white"> <strong class="strong">NÃO PERCA ESSA OPORTUNIDADE!! </p>
-                    <div class="d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="">R$79,90</h2>
-                        <p>por: </p>
-                        <h1>R$49,90</h1>
-                    </div>
+                <p class="title-fifth fs-1 text-center text-white"> <strong class="strong">NÃO PERCA ESSA OPORTUNIDADE!!
+                </p>
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="">R$79,90</h2>
+                    <p>por: </p>
+                    <h1>R$49,90</h1>
+                </div>
             </div>
             <div class="d-flex justify-content-center mt-5">
                 <div class="form">
@@ -330,7 +371,7 @@
                     </div>
                 </div>
             </div>
-           
+
         </div>
     </section>
 
@@ -372,7 +413,7 @@
                     </div>
                 </div>
             </div>
-    </footer>
+        </footer>
     </section>
 </body>
 

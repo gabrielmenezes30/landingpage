@@ -11,17 +11,35 @@
 }
 
 .navbar{
-    background-color: var(--cor1) !important;
+    background-color: #1C1C1C !important;
 }
-
-.header{
+.navbar-nav li:hover{
+    border-bottom: 2px solid turquoise;
+    transition: 100ms ease all;
+}
+/* .header{
     width: 100%;
     height: 8vh;
     background-color: #ACC4BE;
-
+} */
+.link-navbar{
+    letter-spacing: 1px;
+    color: var(--cor1) !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+.link-navbar ion-icon{
+    font-size: 20px;
 }
 
-header .container-fluid{
+.link-navbar:hover{
+    letter-spacing: 1px;
+    color: var(--cor2) !important;
+    font-size: 16px;
+    transition: 100ms ease all;
+}
+
+.container-fluid{
     /* background-color: #981010; */
     width: 100%;
     padding: 0;    
@@ -30,18 +48,21 @@ header .container-fluid{
     /* background-color: #ACC2BC; */
     background-image: url(../assets/mockups/background-header.jpeg); 
     width: 100%;
+    height: 600px;
 }
 
-/*
+
+/* Tirei o top e deixei o mesmo height para o .header-section e o ::before */
+
 .header-section::before{
     content: "";
     background-color: #ACC2BC99 ;  
     width: 100%;
-    height: 100%;
+    height: 600px;
     position: absolute;
-    top: 0px;
+    
 }
-*/
+
 .imagem-header{
     position: absolute;
     margin-top: -40px;
@@ -49,12 +70,14 @@ header .container-fluid{
 }
 .imagem-header img{
     border-radius: 50%;
-    border: 4px ridge #FBBFBF;
+    border: 4px ridge var(--cor2);
     -webkit-box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66); 
-box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
+    box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
 }
 
-
+.teste{
+    z-index: 9999;
+}
 
 .box-content{
     margin-top: 100px;
@@ -76,7 +99,7 @@ box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
     margin-top: 50px;
 }
 .strong-headline{
-    color: #FBBFBF;
+    color: var(--cor2);
 }
 
 .button-margin{
@@ -86,7 +109,7 @@ box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
     z-index: 9999;
 }
 .button-header button{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 450px;
     height: 50px;
     background-color: #5BCE00;
@@ -116,12 +139,12 @@ box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
 }
 .image-content-default{
     border-radius: 10px;
-    border: 2px solid #FBBFBF;
+    border: 2px solid var(--cor2);
     margin-left: 100px;
 }
 .image-content{
     border-radius: 10px;
-    border: 2px solid #FBBFBF;
+    border: 2px solid var(--cor2);
 }
 
 .first-content-title p{
@@ -129,7 +152,7 @@ box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
     font-family: var(--font);
     font-weight: 700;
     color: #ACC4BE;
-    text-shadow: -4px 3px 5px rgba(206,89,55,0.76);
+    text-shadow: -4px 3px 4px rgba(206,89,55,0.76);
 }
 .text-content1 strong{
     color: #E30606;   
@@ -191,7 +214,7 @@ box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
     margin-left: 40px;
 }
 #third-content{
-    background-color: #FBBFBF;
+    background-color: var(--cor2);
     padding-bottom: 100px;
 }
 
@@ -248,12 +271,12 @@ box-shadow: -2px -3px 28px -8px rgba(0,0,0,0.66);
 #fourth-content{
     width: 100%;
     /* height: 200vh; */
-    background-color: #ACC2BC;
+    background-color: var(--cor1);
     padding-bottom: 150px;
 }
 
 #fifth-content{
-    background-color: #FBBFBF;
+    background-color: var(--cor2);
     padding-bottom: 80px;
     
 }
@@ -390,7 +413,7 @@ padding-bottom: 30px;
 .icon-margin{
     margin-right: 20px;
     font-size: 32px;
-    color: #ACC2BC; 
+    color: var(--cor1); 
    
 
 }
