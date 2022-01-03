@@ -349,29 +349,48 @@ background: linear-gradient(to top, rgba(251, 191, 191, 1.0), rgba(255, 255, 255
 }
 
 #fifth-content{
-    background-color: var(--cor2);
+   background-image: url(../assets/mockups/fundoborboleta.png);
+   background-size: cover;
     padding-bottom: 80px;
-    
+    width: 100%;
+    height: 900px;
 }
+#fifth-content::before{
+    content: "";
+    background-color: #ACC2BC80;
+    width: 100%;
+    height: 900px;
+    position: absolute;
+
+}
+
 .content-fifth{
     padding-top: 120px;
     padding-bottom: 70px;
+    z-index: 9999;
+}
+
+.fifth-content-title{
+    z-index: 9999;
 }
 
 .fifth-content-title p{
     font-family: var(--font);
+    font-weight: 900;
+    color: #210B61;
+    text-transform: uppercase;
 }
 .fifth-content-title h2{
-    color: #1C1C1C;
-    font-size: 50px;
+    color: #DF013A;
+    font-size: 60px;
     text-decoration: line-through;
     transform: rotate(-10deg);
 }
 .fifth-content-title h1{
     font-size: 120px;
     color: #FE2E64;
+    font-weight: 700;
     
-     font-weight: 700;
     
 }
 #content-garantia{
@@ -405,31 +424,6 @@ padding-bottom: 30px;
     font-family: var(--font);
     letter-spacing: 10px;
 }
-
-.button-form{
- 
-    width: 600px;
-    height: 50px;
-    background-color: #f76d85;
-    font-size: 30px;
-    color: #fff;
-    font-weight: 700;
-    border: none;
-    border-radius: 3px;
-}
-.button-form:hover{
-  
-    width: 600px;
-    height: 50px;
-    background-color: #fa4b68;
-    font-size: 30px;
-    color: #fff;
-    font-weight: 700;
-    border: none;
-    border-radius: 3px;
-    transition: ease-in-out 100ms;
-}
-
 .fourth-content-title{
     font-size: 60px;
     font-weight: 700;
@@ -496,7 +490,13 @@ padding-bottom: 30px;
     margin-top: 150px;
 }
 
-
+.title-fifth{
+    color: #210B61;
+    z-index: 9999;
+}
+.container-fifth-button{
+    z-index: 9999;
+}
 footer{
     padding-top: 20px;
     background-color: #140718; 
@@ -523,9 +523,6 @@ footer a:hover{
     .mockup-ebook{
         width: 600px;
     }
-
-    
-
     .text-content1{
         font-size: 17px;
         width: 400px;
