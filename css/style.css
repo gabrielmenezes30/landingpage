@@ -213,6 +213,19 @@
     margin-top: 160px;
     margin-right: 80px;
 }
+.content2::before{
+    content: "";
+    width: 100%;
+    height: 75%;
+    background: #FBBFBF;
+background: -webkit-radial-gradient(circle farthest-corner at center center, #FBBFBF 0%, #FFFFFF 30%);
+background: -moz-radial-gradient(circle farthest-corner at center center, #FBBFBF 0%, #FFFFFF 30%);
+background: radial-gradient(circle farthest-corner at center center, #FBBFBF 0%, #FFFFFF 30%);
+    position: absolute;
+    z-index: -10;
+    margin-left: -400px;
+   
+}
 .content2 strong{
     color: #f76d85;
 }
@@ -243,8 +256,10 @@
 .content-bullet-points ul li{
     list-style: none;
     font-size: 24px;
+    font-weight: 600;
     letter-spacing: 2px;
     margin-top: 20px;
+    color: #170B3B;
     font-family: var(--font);
 }
 .background-butterfly-bottom{
@@ -253,7 +268,7 @@
     position: absolute;
     width: 350px;
     height: 300px;
-    z-index: -10;
+    z-index: -1;
     margin-top: 160px;
     margin-left: 350px;
 }
