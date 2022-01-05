@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -139,8 +139,8 @@
     border-radius: 3px;
     z-index: 9999;
     box-shadow: 1px 4px 6px 1px rgba(0,0,0,0.44);
--webkit-box-shadow: 1px 4px 6px 1px rgba(0,0,0,0.44);
--moz-box-shadow: 1px 4px 6px 1px rgba(0,0,0,0.44);
+    -webkit-box-shadow: 1px 4px 6px 1px rgba(0,0,0,0.44);
+    -moz-box-shadow: 1px 4px 6px 1px rgba(0,0,0,0.44);
 }
 .button-header button:hover{
     margin-top: 50px;
@@ -187,7 +187,7 @@
     font-family: var(--font);
     font-weight: 700;
     color: #ACC4BE;
-    text-shadow: -4px 3px 4px rgba(206,89,55,0.76);
+    text-shadow: -1px 4px 4px var(--cor2);
 }
 .text-content1 strong{
     color: #f76d85;   
@@ -213,19 +213,29 @@
     margin-top: 160px;
     margin-right: 80px;
 }
-.content2::before{
+/* .content2::before{
     content: "";
     width: 100%;
-    height: 75%;
+    height: 50px;
+    background-color: #FBBFBF   ;
     background: #FBBFBF;
-background: -webkit-radial-gradient(circle farthest-corner at center center, #FBBFBF 0%, #FFFFFF 30%);
-background: -moz-radial-gradient(circle farthest-corner at center center, #FBBFBF 0%, #FFFFFF 30%);
-background: radial-gradient(circle farthest-corner at center center, #FBBFBF 0%, #FFFFFF 30%);
+    background: -webkit-radial-gradient(circle farthest-side at center center, #FBBFBF 0%, #FFFFFF 26%);
+    background: -moz-radial-gradient(circle farthest-side at center center, #FBBFBF 0%, #FFFFFF 26%);
+    background: radial-gradient(circle farthest-side at center center, #FBBFBF 0%, #FFFFFF 26%);
     position: absolute;
     z-index: -10;
-    margin-left: -400px;
-   
+} */
+.content2::before{
+    content: "";
+    justify-content: center;
+    background-color: #FBBFBF;
+    width: 5px;
+    left: 47%;
+    height: 420px;
+    position: absolute;
 }
+
+
 .content2 strong{
     color: #f76d85;
 }
@@ -255,12 +265,17 @@ background: radial-gradient(circle farthest-corner at center center, #FBBFBF 0%,
 }
 .content-bullet-points ul li{
     list-style: none;
+    font-style: italic;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 2px;
     margin-top: 20px;
     color: #170B3B;
     font-family: var(--font);
+}
+.content-bullet-points ul li span{
+    text-decoration: underline  #f76d85 wavy;
+    text-underline-offset: 5px;
 }
 .background-butterfly-bottom{
     background-image: url(../assets/mockups/fundoborboleta.png);
@@ -287,7 +302,7 @@ background: radial-gradient(circle farthest-corner at center center, #FBBFBF 0%,
 .hr{
     margin: 0px;
     width: 100%;
-    height: 40px;
+    height: 80px;
     background: #FBC0C0;
     background: -webkit-linear-gradient(top, #FBC0C0, #ADC2BC);
     background: -moz-linear-gradient(top, #FBC0C0, #ADC2BC);
@@ -328,7 +343,7 @@ background: radial-gradient(circle farthest-corner at center center, #FBBFBF 0%,
     font-family: var(--font);
     letter-spacing: 4px;
     padding-top: 50px;
-    text-shadow: -4px 3px 4px #483939;
+    text-shadow: -4px 3px 4px var(--cor1);
     color: var(--cor2);
 }
 .cards{
@@ -400,7 +415,6 @@ background: radial-gradient(circle farthest-corner at center center, #FBBFBF 0%,
     background-color: #ACC2BC80;
     width: 100%;
     height: 900px;
- 
     position: absolute;
 
 }
@@ -565,13 +579,60 @@ footer a:hover{
     }
     .text-content1{
         font-size: 17px;
-        width: 400px;
-    }
-    .text-content1 h1{
-        font-weight: 500;
-    }
-    .text-content2{
-        font-size: 30px;
         width: 600px;
     }
+}
+
+@media only screen and (max-width: 1420px){
+
+    .imagem-depoimentos{
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 1360px){
+
+    .image-content-default{
+        width: 500px;
+    }
+    
+    .text-content1{
+        font-size: 17px;
+        width: 500px;
+    }
+    .navbar{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px){
+
+    .main-healdine{
+        display: flex;
+        justify-content:center;
+    }
+
+    .main-headline h1{
+        font-size: 30px;
+    }
+
+    .mockup-ebook{
+        display: none;
+    }
+    
+    .image-content-default{
+        width: 300px;
+    }
+
+    /* .responsivity{
+        display: inline;
+    } */
+
+    /* .r-1024{
+        display: flex;
+        flex-direction: column;
+    } */
+
 }
