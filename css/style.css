@@ -250,6 +250,7 @@
     background-size: cover;
     position: absolute;
     width: 300px;
+    margin-left: -50px;
     height: 300px;
     z-index: -10;
     margin-top: -50px;
@@ -640,10 +641,15 @@ footer a:hover{
         display: none;
     }
 
+    .butterfly-background{
+        margin-left: -25px !important;
+    }
+
     .content2{
         display: flex;
         flex-direction: column;
     }
+
 
     .content2 .content-image2 img{
         display: none;
@@ -683,17 +689,21 @@ footer a:hover{
         margin-left: 30px;
     }
     .content1 .content-image1 img{
-        width: 400px;
+        width: 350px;
     }
 
     .content-fifth-garantia img{
-        width: 250px;
+        width: 200px;
+    }
+    .title-fifth{
+        padding: 1px;
+        font-size: 50px !important;
     }
 }
 @media only screen and (max-width: 970px){
 
     .imagem-depoimentos{
-        width: 230px;
+        width: 280px;
     }
 }
 
@@ -751,6 +761,8 @@ footer a:hover{
 
     .title-fifth{
         padding: 20px;
+        font-size: 40px !important;
+    
     }
     .fourth-content-title{
         pad: 5px;
@@ -814,6 +826,10 @@ footer a:hover{
         width: 150px;
     }
 
+    .content-fifth{
+        padding: 50px;
+    }
+
 }
 
 @media only screen and (max-width: 414px){
@@ -846,7 +862,7 @@ footer a:hover{
     }
 
     .text-content1{
-        width: 300px;
+        width: 280px;
     }
 
     .content-image1 img{
@@ -854,13 +870,16 @@ footer a:hover{
         margin-left: 30px;
     }
 
+    .title-bullet-points h2{
+        font-size: 35px;
+    }
     .button{
         width: 350px;
         font-size: 35px;
     }
 
     .content-bullet-points ul li span{
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .third-content-title{
@@ -883,9 +902,29 @@ footer a:hover{
         font-size: 28px;
     }
 
+    .content-fifth-garantia{
+        margin-bottom: 10px;
+    }
+
+
+    .title-fifth{
+        font-size: 27px !important;
+    }
+
+    .content-fifth-garantia{
+        padding-bottom: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 375px){
+
+
+
+    .main-headline h1{
+        margin-left: -20px;
+        font-size: 27px;
+    }
 
     .icon img{
         display: none;
@@ -895,11 +934,15 @@ footer a:hover{
         width: 340px;
     }
 
+    .bullet-points ul li{
+        padding-top: 5px;
+        margin-left: -20px;
+        font-size: 22px;
+    }
     .title-bullet-points h2{
         font-size: 30px;
     }
-   
-
+    
     .text-content1{
         width: 240px;
         font-size: 17px;
@@ -913,14 +956,35 @@ footer a:hover{
         font-size: 40px;
     }
 
+    .fourth-content-title{
+        font-size: 55px;
+    }
 
     .content-fifth-garantia img{
-        width: 100px;
+        margin-top: -50px;
+        width: 170px;
     }
     
-    .fifth-content-title h1{
-        font-size: 80px;
+    .title-fifth{
+        margin-bottom: 5px;
+        font-size: 26px !important;
+        width: 300px;
     }
 
+    .fifth-content-title h1{
+        font-size: 70px;
+    }
+    
+    #fifth-content{
+         height: 750px;
+     }
+     #fifth-content::before{
+         height: 750px;
+     }
+
+     .res-375{
+         font-size: 20px !important;
+         font-weight: 700;
+     }
 
 }
