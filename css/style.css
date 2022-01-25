@@ -705,6 +705,17 @@ footer a:hover{
         padding: 1px;
         font-size: 50px !important;
     }
+
+    .text-garantia{
+        margin-top: 10px;
+    }
+
+    .container-text-garantia span{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }   
+
+
 }
 @media only screen and (max-width: 970px){
 
@@ -778,6 +789,13 @@ footer a:hover{
         width: 200px;
     }
 
+    .text-garantia{
+        font-size: 28px;
+    }
+
+
+
+
 }
 
 @media only screen and (max-width: 540px){
@@ -839,6 +857,17 @@ footer a:hover{
     .content-fifth{
         padding: 50px;
     }
+
+    .text-garantia{
+        font-size: 20px; 
+    }
+
+    .container-text-garantia span{
+        font-size: 10px;
+        width: 80%
+    }
+
+
 
 }
 
@@ -927,14 +956,17 @@ footer a:hover{
         height: 700px;
     }
 
+    .text-garantia{
+        font-size: 16px;
+    }
 
+    .container-text-garantia span{
+        font-size: 11px;
+        width: 100%;   
+    }
 }
 
 @media only screen and (max-width: 375px){
-
-
-
-
 
     .main-headline h1{
         margin-left: -20px;
@@ -1004,5 +1036,17 @@ footer a:hover{
          font-size: 20px !important;
          font-weight: 700;
      }
+
+     .text-garantia{
+         font-size: 12px;
+     }
+
+     .container-text-garantia span{
+         font-size: 10px;
+     }
+
+
+
+
 
 }
