@@ -304,13 +304,7 @@
     z-index: 1;
     margin-left: -200px;
 }
-.text-garantia{
-    text-align: justify;
-    font-family: var(--font);
-    font-size: 25px;
-    width: 700px;
-    margin-left: 40px;
-}
+
 #third-content{
     padding-top: 100px;
     /* background-color: var(--cor2); */
@@ -529,6 +523,24 @@ padding-bottom: 30px;
 .container-fifth-button{
     z-index: 9999;
 }
+
+
+.text-garantia{
+    font-size: 40px;
+    margin-top: 40px;
+    color: #210B61;
+    font-weight: 700;
+    z-index: 9999;
+}
+
+.container-text-garantia span{
+    width: 60%;
+    font-size: 16px;
+    font-weight: 600;
+    z-index: 9999;
+    color: #111;
+}
+
 footer{
     padding-top: 20px;
     background-color: #140718;
