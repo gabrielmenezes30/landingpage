@@ -42,7 +42,6 @@
 .link-navbar:hover{
     letter-spacing: 1px;
     color: var(--cor2) !important;
-    font-size: 16px;
     transition: 100ms ease all;
 }
 
@@ -631,6 +630,11 @@ footer a:hover{
 
 @media only screen and (max-width: 1025px){
 
+    .link-navbar{
+        font-size: 14px;
+    }
+
+
     .main-healdine{
         display: flex;
         justify-content:center;
@@ -719,12 +723,21 @@ footer a:hover{
 }
 @media only screen and (max-width: 970px){
 
+    .navbar ul li a{
+        padding-left: 15px !important;
+    }
+    .navbar-nav li:hover {
+        border-bottom: none;
+    }
+
     .imagem-depoimentos{
         width: 280px;
     }
 }
 
 @media only screen and (max-width: 768px){
+
+
 
     .cards{
         display: flex;
@@ -772,9 +785,7 @@ footer a:hover{
     width: 600px;
     text-align: justify;
 }
-    .navbar ul li a{
-        padding-left: 15px !important;
-    }
+    
 
     .title-fifth{
         padding: 20px;
